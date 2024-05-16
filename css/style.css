@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Speed Freaks';
+    src: url('../path_to_your_fonts/SpeedFreaks.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SF Old Republic';
+    color: white !important;
+    src: url('../path_to_your_fonts/SFOldRepublic.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#gumb12 {
+    margin-top: -2px; /* Move this button 10px up */
+}
+.score{
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Speed Freaks', sans-serif;
+    color:#b1b1b1;
+}
+
+body {
+    background-image: url('../slike/back3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 900px;
+    height: 550px;
+    margin: auto;
+    margin-top: 190px;
+}
+
+.cent {
+    width: 1000px;
+    height: 550px;
+    background-color: #101010;
+}
+
+.text {
+    font-family: 'SF Old Republic', sans-serif;
+}
+
+#center {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    width: 700px;
+    height: 305px;
+    background-color: #c1c0c15a;
+    border: 5px solid #c7d6cc;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Speed Freaks', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.kaj {
+    height: 75px;
+    width: 100%;
+}
+
+#igralci {
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-family: 'SF Old Republic', sans-serif;
+}
+
+label {
+    color: #ffffff;
+    font-family: 'jer', sans-serif;
+}
+
+.igralci {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'SF Old Republic', sans-serif;
+    font-size: 45px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    color: #ffffff;
+}
+
+.vpis {
+    font-family: 'SF Old Republic', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#zmagovalec {
+    width: 100%;
+    color: #0c1250;
+    font-family: 'SF Old Republic', sans-serif;
+    margin-bottom: 10px;
+}
+
+#kocke {
+    margin-top: 25px;
+    font-size: 45px;
+}
+
+.izb {
+    text-align: center;
+    width: 100px;
+    border-radius: 7px;
+}
+
+#obrazec {
+    width: 100%;
+    height: 100%;
+}
+
+.dol {
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+    border-radius: 7px;
+    color: #ffffff;
+    font-family: 'SF Old Republic', sans-serif;
+}
+
+.dol a {
+    color: #b1b1b1;
+}
+
+#dol {
+    color: #ffffff !important;
+}
+
+#igralci {
+    color: #ffffff !important;
+}
+#navigateButton{
+    margin-top: -10px;
+}
+
+input, select {
+    width: 170px;
+    height: 40px;
+    font-size: 20px;
+    color: #3d3c4b;
+    background-color: #71b1df6c;
+    border: 2px solid #b1b1b1;
+    border-radius: 8px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'SF Old Republic', sans-serif;
+    transition: all 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #060532;
+    outline: none;
+    box-shadow: 0 0 8px rgba(12, 2, 58, 0.5);
+}
+
+.kocke {
+    border: 3px solid black;
+    margin: 0 1px;
+    border-radius: 5px;
+}
+
+.izberi {
+    width: 50%;
+}
+
+.baton {
+    margin-top: 25px;
+    height: 45px;
+    width: 150px;
+    color: white;
+    background-color: #05003b;
+    border: 2px solid #01094292;
+    border-radius: 8px;
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+}
+#navigateButton{
+    margin-top: 20px;
+}
+.baton:hover {
+    color: #ffffff;
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.baton:active {
+    background-color: #040936;
+    transform: scale(0.98);
+}
+
+.baton1 {
+    margin-top: 7px;
+    height: 45px;
+    width: 150px;
+    color: white;
+    background-color: #05003b;
+    border: 2px solid #01094292;
+    border-radius: 8px;
+    opacity: 0.9;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+}
+.baton1:hover {
+    color: #ffffff;
+    background-color: #ffffff;
+    transform: scale(1.05);
+}
+
+.baton1:active {
+    background-color: #040936;
+    transform: scale(0.98);
+}
